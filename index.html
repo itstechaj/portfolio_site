@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhijit Kumar — Systems Engineer & Product Builder</title>
+  <meta name="description" content="Abhijit Kumar — SDE-2 at Flipkart. Architecting distributed systems, loyalty platforms, and product-driven engineering at internet scale." />
+  <meta name="author" content="Abhijit Kumar" />
+  <meta name="theme-color" content="#05070d" />
+  <meta property="og:title" content="Abhijit Kumar — Systems Engineer" />
+  <meta property="og:description" content="Building high-scale platforms and distributed systems at Flipkart." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔭</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══ STARFIELD ═══ -->
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <!-- ═══ ORBIT PARTICLES ═══ -->
+  <div class="orbit-wrap" aria-hidden="true">
+    <div class="orb"></div><div class="orb"></div><div class="orb"></div><div class="orb"></div><div class="orb"></div>
+  </div>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="nav" id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">AK<span class="dot" aria-hidden="true"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#strengths">Strengths</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="main">
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-cover-bg">
+        <img src="assets/images/linkedin_cover.png" alt="" loading="eager" />
+      </div>
+      <div class="neb n1" aria-hidden="true"></div>
+      <div class="neb n2" aria-hidden="true"></div>
+      <div class="neb n3" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="avatar">
+          <img src="assets/images/profile_pic.jpg" alt="Abhijit Kumar" width="112" height="112" loading="eager" />
+        </div>
+
+        <div class="hero-badge">
+          <span class="sdot" aria-hidden="true"></span>
+          SDE-2 @ Flipkart · Building at Scale
+        </div>
+
+        <h1 class="hero-name"><span>Abhijit Kumar</span></h1>
+
+        <p class="hero-hl">
+          I architect <em>distributed systems</em> and ship
+          <em>product-driven features</em> that operate at
+          <em>internet scale</em>.
+        </p>
+
+        <p class="hero-desc">
+          Designing scalable backend platforms, building real-time integrations, and crafting high-impact product experiences at Flipkart — one of the world's largest e-commerce ecosystems.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-p" id="cta-projects">
+            <span class="btn-icon">🚀</span> View Projects
+          </a>
+          <a href="assets/resume/Abhijit Kumar resume.pdf" class="btn btn-s" target="_blank" rel="noopener" id="cta-resume">
+            <span class="btn-icon">📄</span> Download Resume
+          </a>
+        </div>
+
+        <div class="hero-strip">
+          <span class="hero-strip-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            abhijeetmitian1@gmail.com
+          </span>
+          <span class="hero-strip-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.11 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +91 7488042190
+          </span>
+        </div>
+      </div>
+
+      <div class="scroll-ind" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-vis rv">
+            <div class="about-img-wrap">
+              <div class="about-img-brd"></div>
+              <img src="assets/images/profile_pic.jpg" alt="Abhijit Kumar" loading="lazy" />
+            </div>
+            <div class="about-stats">
+              <div class="stat rv rv-d1">
+                <div class="stat-n">3+</div>
+                <div class="stat-l">Years Exp</div>
+              </div>
+              <div class="stat rv rv-d2">
+                <div class="stat-n">100M+</div>
+                <div class="stat-l">Users Impacted</div>
+              </div>
+              <div class="stat rv rv-d3">
+                <div class="stat-n">10+</div>
+                <div class="stat-l">Systems Built</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-txt rv rv-d2">
+            <div class="sh-tag">About</div>
+            <h3>Engineering systems that scale, features that matter.</h3>
+            <p>
+              I'm a <strong>Software Development Engineer at Flipkart</strong>, working deep in the SuperCoin & Loyalty platform — the core economic layer that powers coin earning, burning, partnership integrations, and promotional mechanics across the entire Flipkart ecosystem.
+            </p>
+            <p>
+              My work sits at the intersection of <strong>distributed systems design</strong> and <strong>product engineering</strong>. I don't just write code — I architect solutions to business problems at internet scale, owning end-to-end from technical design to production rollout.
+            </p>
+            <p>
+              Every project I ship is measured by its impact: conversion lift, latency reduction, revenue unlock, and operational resilience. I think in systems, communicate in business outcomes, and execute with engineering rigor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ STRENGTHS ═══════════ -->
+    <section id="strengths">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Core Competencies</div>
+          <h2 class="sh-title">Engineering <span class="glow-text">Superpowers</span></h2>
+          <p class="sh-sub">Deep technical thinking meets business-aware execution.</p>
+        </div>
+
+        <div class="str-grid">
+          <div class="str-card rv rv-d1">
+            <div class="str-icon">⚙️</div>
+            <h3 class="str-title">System Design</h3>
+            <p class="str-desc">Distributed services with fault tolerance, clean contracts, and horizontal scalability.</p>
+          </div>
+          <div class="str-card rv rv-d2">
+            <div class="str-icon">🔧</div>
+            <h3 class="str-title">Backend Engineering</h3>
+            <p class="str-desc">High-throughput Java services, optimized algorithms, and resilient APIs at millions of TPS.</p>
+          </div>
+          <div class="str-card rv rv-d3">
+            <div class="str-icon">📡</div>
+            <h3 class="str-title">Observability</h3>
+            <p class="str-desc">Query-driven alert systems, real-time dashboards, and proactive monitoring frameworks.</p>
+          </div>
+          <div class="str-card rv rv-d4">
+            <div class="str-icon">🎯</div>
+            <h3 class="str-title">Product Thinking</h3>
+            <p class="str-desc">Translating business ambiguity into sharp technical solutions with measurable impact.</p>
+          </div>
+          <div class="str-card rv rv-d5">
+            <div class="str-icon">⚡</div>
+            <h3 class="str-title">Execution</h3>
+            <p class="str-desc">End-to-end ownership — design doc to production, cross-team alignment, iterative delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ EXPERIENCE ═══════════ -->
+    <section id="experience">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Career Track</div>
+          <h2 class="sh-title">Impact <span class="glow-text">Timeline</span></h2>
+          <p class="sh-sub">Building at scale, shipping outcomes.</p>
+        </div>
+
+        <div class="tl">
+          <div class="tl-item rv">
+            <div class="tl-dot"></div>
+            <div class="tl-head">
+              <span class="tl-co">Flipkart</span>
+              <span class="tl-role">SDE-2</span>
+              <span class="tl-period">Current</span>
+            </div>
+            <p class="tl-team">SuperCoin & Loyalty Platform — Commerce Division</p>
+            <ul class="tl-list">
+              <li>Architected the <strong>SuperCoin Earn-as-Offer</strong> system — a new offer type enabling dynamic coin earning with cohort targeting, processing eligibility for 100M+ users across Flipkart, Grocery, and Hyperlocal marketplaces</li>
+              <li>Designed and built <strong>CnC 2.0</strong> — multi-multiplier coin optimization algorithm reducing customer net price while maximizing coin burn efficiency across all cart items</li>
+              <li>Led end-to-end architecture for <strong>Flipkart × Uber partnership</strong> — account linking via OAuth/SSO, coin credit on rides, real-time segment targeting, and cross-platform authorization</li>
+              <li>Built a <strong>query-based database alert system</strong> — configurable monitoring with policy scheduling, multi-host support, and Zenduty integration for proactive failure detection</li>
+              <li>Engineered <strong>Zanshin telemetry integration</strong> using ByteBuddy compile-time weaving — instrumenting 350+ classes without source modification, eliminating manual overhead</li>
+              <li>Designed <strong>CnC Analytics pipeline</strong> — 2D proportional distribution algorithm for mapping burn transactions to earn sources at offer-ID granularity</li>
+              <li>Reduced network calls by <strong>15K–20K QPS</strong> by migrating coin computation from service to library, cutting network hops across search and discovery funnels</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FEATURED PROJECTS ═══════════ -->
+    <section id="projects">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Featured Work</div>
+          <h2 class="sh-title">Flagship <span class="glow-text">Projects</span></h2>
+          <p class="sh-sub">Systems I designed, built, and shipped to production at internet scale.</p>
+        </div>
+      </div>
+
+      <div class="carousel-wrap">
+        <div class="carousel" id="carousel">
+          <!-- SET 1 -->
+          <div class="p-card" data-project="0" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/Earn_as_offer.png" alt="SuperCoin Earn as Offer" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Loyalty Platform</span>
+              <h3 class="p-card-title">Upto 100% SuperCoins Cashback</h3>
+              <p class="p-card-impact">New offer type enabling dynamic coin earning with cohort targeting for 100M+ users</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+
+          <div class="p-card" data-project="1" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/cnc_nep.png" alt="CnC Booster Multiplier" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Commerce Engine</span>
+              <h3 class="p-card-title">CnC Booster Multiplier Offer</h3>
+              <p class="p-card-impact">Multi-multiplier coin optimization reducing customer net price via intelligent allocation</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+
+          <div class="p-card" data-project="2" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/fk_uber.png" alt="Flipkart × Uber Partnership" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Strategic Integration</span>
+              <h3 class="p-card-title">Flipkart × Uber Partnership</h3>
+              <p class="p-card-impact">Cross-platform account linking with OAuth, real-time coin credit, and SSO authorization</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+
+          <!-- SET 2 (duplicate for infinite scroll) -->
+          <div class="p-card" data-project="0" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/Earn_as_offer.png" alt="SuperCoin Earn as Offer" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Loyalty Platform</span>
+              <h3 class="p-card-title">Upto 100% SuperCoins Cashback</h3>
+              <p class="p-card-impact">New offer type enabling dynamic coin earning with cohort targeting for 100M+ users</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+
+          <div class="p-card" data-project="1" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/cnc_nep.png" alt="CnC Booster Multiplier" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Commerce Engine</span>
+              <h3 class="p-card-title">CnC Booster Multiplier Offer</h3>
+              <p class="p-card-impact">Multi-multiplier coin optimization reducing customer net price via intelligent allocation</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+
+          <div class="p-card" data-project="2" data-tilt>
+            <div class="p-card-img">
+              <img src="assets/images/fk_uber.png" alt="Flipkart × Uber Partnership" loading="lazy" />
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-tag">Strategic Integration</span>
+              <h3 class="p-card-title">Flipkart × Uber Partnership</h3>
+              <p class="p-card-impact">Cross-platform account linking with OAuth, real-time coin credit, and SSO authorization</p>
+              <div class="p-card-cta">View Details <span>→</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ OTHER WORK ═══════════ -->
+    <section id="work">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Engineering Depth</div>
+          <h2 class="sh-title">Other <span class="glow-text">Work</span></h2>
+          <p class="sh-sub">Systems, tools, and frameworks I've designed and delivered.</p>
+        </div>
+
+        <div class="wk-grid">
+          <div class="wk-card rv rv-d1">
+            <div class="wk-icon">📊</div>
+            <span class="wk-cat">Analytics</span>
+            <h3 class="wk-title">CnC Analytics Pipeline</h3>
+            <p class="wk-desc">Designed a 2D proportional distribution algorithm for mapping burn transactions to earn sources at offer-ID granularity — enabling accurate revenue accounting and audit compliance across multi-offer constructs.</p>
+          </div>
+
+          <div class="wk-card rv rv-d2">
+            <div class="wk-icon">🔔</div>
+            <span class="wk-cat">Alerts & Monitoring</span>
+            <h3 class="wk-title">DB Query Alert System</h3>
+            <p class="wk-desc">Built a configurable database monitoring framework with policy-based scheduling, multi-host onboarding (DB/VM/Service), automated validation queries, and Zenduty alert integration with suppression rules.</p>
+          </div>
+
+          <div class="wk-card rv rv-d3">
+            <div class="wk-icon">🔌</div>
+            <span class="wk-cat">Integrations</span>
+            <h3 class="wk-title">Zanshin Telemetry Integration</h3>
+            <p class="wk-desc">Engineered compile-time bytecode instrumentation using ByteBuddy — automatically weaving telemetry initialization into 350+ library classes without any source code modifications or consumer-side setup.</p>
+          </div>
+
+          <div class="wk-card rv rv-d4">
+            <div class="wk-icon">🧪</div>
+            <span class="wk-cat">Experiments</span>
+            <h3 class="wk-title">SuperCoin Earn Offer Engine</h3>
+            <p class="wk-desc">End-to-end offer lifecycle — from Grumbles creation to product page visibility, search callouts, cart integration, and coin ledger tracking. Supports fixed, percentage, and cohort-targeted configurations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ RESUME ═══════════ -->
+    <section id="resume">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Resume</div>
+          <h2 class="sh-title">My <span class="glow-text">Resume</span></h2>
+        </div>
+
+        <div class="res-card rv">
+          <div class="res-icon">📄</div>
+          <span class="res-fn">Abhijit Kumar resume.pdf</span>
+          <h3>Abhijit Kumar</h3>
+          <p>SDE-2 at Flipkart — Distributed Systems · Product Engineering · Loyalty Platform</p>
+          <a href="assets/resume/Abhijit Kumar resume.pdf" class="btn btn-p" target="_blank" rel="noopener" id="btn-dl-resume">
+            <span class="btn-icon">⬇️</span> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONTACT ═══════════ -->
+    <section id="contact">
+      <div class="container">
+        <div class="sh rv">
+          <div class="sh-tag">Get in Touch</div>
+          <h2 class="sh-title">Let's <span class="glow-text">Connect</span></h2>
+          <p class="sh-sub">Open to conversations about systems engineering, product building, and interesting problems.</p>
+        </div>
+
+        <div class="ct-grid">
+          <div class="ct-card rv rv-d1" id="ct-email">
+            <div class="ct-icon">✉️</div>
+            <div class="ct-info">
+              <div class="ct-label">Email</div>
+              <div class="ct-val">abhijeetmitian1@gmail.com</div>
+            </div>
+            <button class="ct-copy" data-copy="abhijeetmitian1@gmail.com" aria-label="Copy email">📋</button>
+          </div>
+
+          <div class="ct-card rv rv-d2" id="ct-phone">
+            <div class="ct-icon">📱</div>
+            <div class="ct-info">
+              <div class="ct-label">Phone</div>
+              <div class="ct-val">+91 7488042190</div>
+            </div>
+            <button class="ct-copy" data-copy="+917488042190" aria-label="Copy phone">📋</button>
+          </div>
+
+          <div class="ct-card rv rv-d3" id="ct-linkedin">
+            <a href="https://www.linkedin.com/in/abhijit-kumar--/" target="_blank" rel="noopener" style="display:contents">
+              <div class="ct-icon">💼</div>
+              <div class="ct-info">
+                <div class="ct-label">LinkedIn</div>
+                <div class="ct-val">abhijit-kumar--</div>
+              </div>
+            </a>
+            <button class="ct-copy" data-copy="https://www.linkedin.com/in/abhijit-kumar--/" aria-label="Copy LinkedIn">📋</button>
+          </div>
+
+          <div class="ct-card rv rv-d4" id="ct-github">
+            <a href="https://github.com/itstechaj" target="_blank" rel="noopener" style="display:contents">
+              <div class="ct-icon">🐙</div>
+              <div class="ct-info">
+                <div class="ct-label">GitHub</div>
+                <div class="ct-val">itstechaj</div>
+              </div>
+            </a>
+            <button class="ct-copy" data-copy="https://github.com/itstechaj" aria-label="Copy GitHub">📋</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <p class="footer-tag">Designed & built with precision by <b>Abhijit Kumar</b></p>
+    <p class="footer-copy">© 2025 · Engineered from orbit 🔭</p>
+  </footer>
+
+  <!-- ═══ LIGHTBOX ═══ -->
+  <div class="lb-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Project details">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <div class="lb-content">
+      <img class="lb-img" id="lbImg" src="" alt="" />
+      <div class="lb-body">
+        <h3 class="lb-title" id="lbTitle"></h3>
+        <p class="lb-sub" id="lbSub"></p>
+        <div class="lb-sec"><h4>Problem</h4><p id="lbProblem"></p></div>
+        <div class="lb-sec"><h4>Solution</h4><p id="lbSolution"></p></div>
+        <div class="lb-sec"><h4>Impact</h4><p id="lbImpact"></p></div>
+        <div class="lb-tech" id="lbTech"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ TOAST ═══ -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
